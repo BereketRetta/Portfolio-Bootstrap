@@ -1,0 +1,17 @@
+#icons {
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 30px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+@media screen and (min-width: 1000px) {
+  #icons {
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 30px;
+    margin-top: 50px;
+    position: absolute;
+  }
+}
